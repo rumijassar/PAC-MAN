@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+}
+
+
+.grid-wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  justify-content: center;
+  height: 560px;
+  width: 560px;
+}
+
+.grid div {
+  width: 20px;
+  height: 20px;
+}
+
+.pac-dot {
+  background-color: rgb(249, 144, 215); 
+  border: 5px solid rgb(0, 0, 0);
+  box-sizing: border-box;
+}
+
+.wall {
+  background-color: rgb(210, 140, 240);
+}
+
+.power-pellet {
+  background-color: rgb(67, 249, 218);
+  border-radius: 10px;
+}
+
+.blinky {
+  background-color: rgb(244, 0, 0);
+}
+
+.pinky {
+  background-color: rgb(247, 0, 181);
+}
+
+
+.inky {
+  background-color: rgb(0, 153, 255);
+}
+
+.clyde {
+  background-color: orange;  
+  background-image: url('');
+  background-size: contain; 
+}
+
+.pac-man {
+  /* background-color: yellow; */
+  border-radius: 10px;
+  background-image: url('https://thumbs.gfycat.com/ClutteredGreatIndianpalmsquirrel-max-1mb.gif');
+  background-size: contain;
+  
+}
+
+
+.scared-ghost {
+  background-color: aquamarine;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: aliceblue;
+  
+}
+.score {
+  margin-top: 0;
+ 
+}
+
+body {
+  background-image: url("https://images.pexels.com/photos/4836370/pexels-photo-4836370.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
